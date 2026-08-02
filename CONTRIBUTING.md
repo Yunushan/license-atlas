@@ -6,6 +6,7 @@ Thank you for improving the catalog.
 
 - Edit `data/licenses.json` for license entries.
 - Edit `data/languages.json` for language coverage.
+- Add localized README overviews as `README.<locale>.md`; keep `README.md` as the canonical source.
 - Run `python3 scripts/generate_catalog.py` to regenerate the readable documents.
 - Do not edit `docs/comparison.md` or `docs/languages.md` manually; CI verifies that they match the data.
 
@@ -16,6 +17,7 @@ Thank you for improving the catalog.
 - Describe obligations cautiously and avoid absolute legal conclusions.
 - Keep software, documentation, font, content, database, and source-available scopes distinct.
 - Explain compatibility as a starting point for review, not as a blanket legal guarantee.
+- Preserve license identifiers, legal notices, links, and compatibility cautions in translated README files.
 
 ## Pull requests
 

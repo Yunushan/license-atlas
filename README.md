@@ -6,6 +6,8 @@
 [![License: 0BSD](https://img.shields.io/badge/license-0BSD-blue.svg)](LICENSE)
 [![SPDX](https://img.shields.io/badge/metadata-SPDX--aware-informational.svg)](https://spdx.org/licenses/)
 
+This repository is released under the [BSD Zero Clause License (0BSD)](LICENSE).
+
 License Atlas is a maintainer-friendly reference for comparing license obligations before choosing a license or adding a dependency. It combines a machine-readable catalog with human-readable comparison tables, practical decision guidance, and SPDX header examples for 20 widely used programming languages.
 
 > This is educational reference material, not legal advice. Read the complete license text, inspect all dependency license expressions, and obtain professional advice for material commercial, distribution, patent, or compliance decisions.
@@ -103,7 +105,7 @@ The catalog intentionally uses a **practical reference order**, not a claim that
 | 49 | `ODbL-1.0` | Open Data Commons Open Database License 1.0 | Databases |
 | 50 | `BUSL-1.1` | Business Source License 1.1 | Source-available |
 
-## Supported languages
+## Supported programming languages
 
 The project includes SPDX header templates and packaging notes for 20 common languages. The list is practical ecosystem coverage rather than a claim of a single authoritative global ranking.
 
@@ -131,6 +133,35 @@ The project includes SPDX header templates and packaging notes for 20 common lan
 | Objective-C | `.m`, `.mm`, `.h` |
 
 See [`docs/languages.md`](docs/languages.md) for copy-ready headers.
+
+## README language support
+
+The canonical README is written in English. Localized README overviews are available for these 20 widely spoken languages. The exact ranking varies by source and by whether native and second-language speakers are combined.
+
+| Language | Locale | README |
+|---|---|---|
+| English | `en` | [English](README.md) |
+| Mandarin Chinese | `zh-CN` | [简体中文](README.zh-CN.md) |
+| Spanish | `es` | [Español](README.es.md) |
+| Hindi | `hi` | [हिन्दी](README.hi.md) |
+| Arabic | `ar` | [العربية](README.ar.md) |
+| Bengali | `bn` | [বাংলা](README.bn.md) |
+| Portuguese | `pt` | [Português](README.pt.md) |
+| Russian | `ru` | [Русский](README.ru.md) |
+| Urdu | `ur` | [اردو](README.ur.md) |
+| Indonesian | `id` | [Bahasa Indonesia](README.id.md) |
+| French | `fr` | [Français](README.fr.md) |
+| German | `de` | [Deutsch](README.de.md) |
+| Japanese | `ja` | [日本語](README.ja.md) |
+| Marathi | `mr` | [मराठी](README.mr.md) |
+| Telugu | `te` | [తెలుగు](README.te.md) |
+| Turkish | `tr` | [Türkçe](README.tr.md) |
+| Tamil | `ta` | [தமிழ்](README.ta.md) |
+| Vietnamese | `vi` | [Tiếng Việt](README.vi.md) |
+| Korean | `ko` | [한국어](README.ko.md) |
+| Italian | `it` | [Italiano](README.it.md) |
+
+These pages are localized overviews; the English README remains the source of truth for the complete catalog. Please preserve the license identifiers, legal notices, links, and compatibility cautions when translating.
 
 ## Using the catalog responsibly
 
