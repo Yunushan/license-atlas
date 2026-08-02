@@ -1,0 +1,142 @@
+[
+  {
+    "name": "C",
+    "extensions": [".c", ".h"],
+    "comment_style": "block",
+    "header": "/* SPDX-License-Identifier: MIT */",
+    "ecosystem_note": "Keep a project-level LICENSE file; headers are useful for individual source files and generated C headers."
+  },
+  {
+    "name": "C++",
+    "extensions": [".cc", ".cpp", ".cxx", ".hpp"],
+    "comment_style": "block",
+    "header": "/* SPDX-License-Identifier: Apache-2.0 */",
+    "ecosystem_note": "Apply the chosen identifier consistently across templates, headers, and compiled library sources."
+  },
+  {
+    "name": "C#",
+    "extensions": [".cs"],
+    "comment_style": "line",
+    "header": "// SPDX-License-Identifier: MIT",
+    "ecosystem_note": "For NuGet packages, also publish the license expression or license file metadata required by the package format."
+  },
+  {
+    "name": "Java",
+    "extensions": [".java"],
+    "comment_style": "line",
+    "header": "// SPDX-License-Identifier: Apache-2.0",
+    "ecosystem_note": "Maven and Gradle metadata should agree with the repository LICENSE and any bundled dependency notices."
+  },
+  {
+    "name": "Python",
+    "extensions": [".py"],
+    "comment_style": "hash",
+    "header": "# SPDX-License-Identifier: MIT",
+    "ecosystem_note": "Publish the license in project metadata and include it in source distributions and wheels when appropriate."
+  },
+  {
+    "name": "JavaScript",
+    "extensions": [".js", ".jsx", ".mjs", ".cjs"],
+    "comment_style": "line",
+    "header": "// SPDX-License-Identifier: MIT",
+    "ecosystem_note": "Keep package.json license metadata, source headers, and bundled third-party notices aligned."
+  },
+  {
+    "name": "TypeScript",
+    "extensions": [".ts", ".tsx"],
+    "comment_style": "line",
+    "header": "// SPDX-License-Identifier: Apache-2.0",
+    "ecosystem_note": "Check both TypeScript source and generated JavaScript distribution artifacts for notice handling."
+  },
+  {
+    "name": "Go",
+    "extensions": [".go"],
+    "comment_style": "line",
+    "header": "// SPDX-License-Identifier: BSD-3-Clause",
+    "ecosystem_note": "Go modules can include dependencies with different licenses; audit go.mod and transitive modules."
+  },
+  {
+    "name": "Rust",
+    "extensions": [".rs"],
+    "comment_style": "line",
+    "header": "// SPDX-License-Identifier: MIT OR Apache-2.0",
+    "ecosystem_note": "Cargo.toml license or license-file metadata should match the source and distribution terms."
+  },
+  {
+    "name": "PHP",
+    "extensions": [".php"],
+    "comment_style": "line",
+    "header": "// SPDX-License-Identifier: MIT",
+    "ecosystem_note": "Composer package metadata and bundled dependencies should be checked separately."
+  },
+  {
+    "name": "Ruby",
+    "extensions": [".rb"],
+    "comment_style": "hash",
+    "header": "# SPDX-License-Identifier: MIT",
+    "ecosystem_note": "Gem metadata, gemspec files, and vendored dependencies may have separate notice obligations."
+  },
+  {
+    "name": "Swift",
+    "extensions": [".swift"],
+    "comment_style": "line",
+    "header": "// SPDX-License-Identifier: Apache-2.0",
+    "ecosystem_note": "Swift Package Manager manifests should describe the same license choice as the repository."
+  },
+  {
+    "name": "Kotlin",
+    "extensions": [".kt", ".kts"],
+    "comment_style": "line",
+    "header": "// SPDX-License-Identifier: Apache-2.0",
+    "ecosystem_note": "Review Gradle dependency reports and packaged NOTICE files for Android and JVM distributions."
+  },
+  {
+    "name": "Dart",
+    "extensions": [".dart"],
+    "comment_style": "line",
+    "header": "// SPDX-License-Identifier: BSD-3-Clause",
+    "ecosystem_note": "pubspec metadata and Flutter release bundles should preserve third-party license notices."
+  },
+  {
+    "name": "R",
+    "extensions": [".r", ".R"],
+    "comment_style": "hash",
+    "header": "# SPDX-License-Identifier: GPL-3.0-or-later",
+    "ecosystem_note": "CRAN package DESCRIPTION metadata and installed source files should use compatible terms."
+  },
+  {
+    "name": "Lua",
+    "extensions": [".lua"],
+    "comment_style": "line",
+    "header": "-- SPDX-License-Identifier: MIT",
+    "ecosystem_note": "Include the license in rockspec or package metadata when publishing a reusable module."
+  },
+  {
+    "name": "Perl",
+    "extensions": [".pl", ".pm"],
+    "comment_style": "hash",
+    "header": "# SPDX-License-Identifier: Artistic-2.0",
+    "ecosystem_note": "CPAN metadata, module headers, and bundled modules can carry different licenses."
+  },
+  {
+    "name": "Haskell",
+    "extensions": [".hs", ".lhs"],
+    "comment_style": "line",
+    "header": "-- SPDX-License-Identifier: BSD-3-Clause",
+    "ecosystem_note": "Cabal or Hackage metadata should remain consistent with source and distribution files."
+  },
+  {
+    "name": "Scala",
+    "extensions": [".scala", ".sc"],
+    "comment_style": "line",
+    "header": "// SPDX-License-Identifier: Apache-2.0",
+    "ecosystem_note": "sbt or Maven publication metadata should include license and NOTICE information."
+  },
+  {
+    "name": "Objective-C",
+    "extensions": [".m", ".mm", ".h"],
+    "comment_style": "block",
+    "header": "/* SPDX-License-Identifier: MIT */",
+    "ecosystem_note": "Framework bundles and CocoaPods or Swift Package Manager metadata may need separate notice handling."
+  }
+]
