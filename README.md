@@ -21,7 +21,7 @@ License Atlas is a maintainer-friendly reference for comparing license obligatio
 - SPDX identifiers and canonical SPDX references for automation and package metadata.
 - Comment/header examples for **20 common programming languages**.
 - A dependency-review checklist and compatibility cautions.
-- A dependency-free Python validator and GitHub Actions workflow.
+- Dependency-free Python validation, repository-link checks, unit tests, and a GitHub Actions workflow.
 
 ## Recommended repository name
 
@@ -191,11 +191,15 @@ The project intentionally has no runtime dependencies.
 
 ```bash
 python3 scripts/validate.py
+python3 scripts/check_repository.py
 python3 scripts/generate_catalog.py
 python3 scripts/generate_catalog.py --check
+python3 -m unittest discover -s tests -v
 ```
 
 The GitHub Actions workflow runs the validator and verifies that generated documentation is synchronized with the JSON source data.
+
+See [`docs/RELEASE.md`](docs/RELEASE.md) for release gates, versioning, repository settings, and recovery guidance.
 
 ## Sources and further reading
 
@@ -207,7 +211,7 @@ The GitHub Actions workflow runs the validator and verifies that generated docum
 
 ## Contributing
 
-Contributions are welcome when they improve factual accuracy, source links, readability, validation, or language coverage. See [`CONTRIBUTING.md`](CONTRIBUTING.md). Please update `data/licenses.json` or `data/languages.json` first and regenerate the documentation rather than editing generated files manually.
+Contributions are welcome when they improve factual accuracy, source links, readability, validation, or language coverage. See [`CONTRIBUTING.md`](CONTRIBUTING.md). Please update the relevant file under `data/` first and regenerate the documentation rather than editing generated files manually.
 
 ## License
 

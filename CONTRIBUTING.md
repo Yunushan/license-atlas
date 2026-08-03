@@ -6,6 +6,7 @@ Thank you for improving the catalog.
 
 - Edit `data/licenses.json` for license entries.
 - Edit `data/languages.json` for language coverage.
+- Edit `data/readme_languages.json` for localized README entry points.
 - Add localized README overviews as `README.<locale>.md`; keep `README.md` as the canonical source.
 - Run `python3 scripts/generate_catalog.py` to regenerate the readable documents.
 - Do not edit `docs/comparison.md` or `docs/languages.md` manually; CI verifies that they match the data.
@@ -25,5 +26,7 @@ Please include the reason for a change, authoritative references, and the output
 
 ```bash
 python3 scripts/validate.py
+python3 scripts/check_repository.py
 python3 scripts/generate_catalog.py --check
+python3 -m unittest discover -s tests -v
 ```
